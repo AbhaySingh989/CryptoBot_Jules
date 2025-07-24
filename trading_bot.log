@@ -1,0 +1,155 @@
+2025-07-23 04:18:00,947 - root - ERROR - Strategy file not found. Please create a strategy.py file in the strategies directory.
+2025-07-23 04:18:23,869 - root - INFO - Starting trading engine...
+2025-07-23 04:18:23,921 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:18:41,215 - root - INFO - Starting trading engine...
+2025-07-23 04:18:41,266 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:18:55,429 - root - INFO - Starting trading engine...
+2025-07-23 04:18:55,488 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:19:09,266 - root - INFO - Starting trading engine...
+2025-07-23 04:19:09,321 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:19:20,467 - root - INFO - Starting trading engine...
+2025-07-23 04:19:20,530 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:19:35,566 - root - INFO - Starting trading engine...
+2025-07-23 04:19:35,628 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:20:02,820 - root - INFO - Starting trading engine...
+2025-07-23 04:20:02,891 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:20:18,053 - root - INFO - Starting trading engine...
+2025-07-23 04:20:18,109 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:20:41,855 - root - INFO - Starting trading engine...
+2025-07-23 04:20:44,938 - root - INFO - Stopping trading engine...

@@ -1,0 +1,2 @@
+[console_scripts]
+trading_bot = trading_bot.__main__:main

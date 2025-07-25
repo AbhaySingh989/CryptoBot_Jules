@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: trading_bot
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: websockets
+Requires-Dist: python-telegram-bot
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: cryptography==40.0.2
+Requires-Dist: python-socketio==5.5.1
+Requires-Dist: websocket-client==1.2.3
+Dynamic: license-file
+Dynamic: requires-dist

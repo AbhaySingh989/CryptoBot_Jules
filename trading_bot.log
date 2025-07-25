@@ -1,0 +1,218 @@
+2025-07-23 04:18:00,947 - root - ERROR - Strategy file not found. Please create a strategy.py file in the strategies directory.
+2025-07-23 04:18:23,869 - root - INFO - Starting trading engine...
+2025-07-23 04:18:23,921 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:18:41,215 - root - INFO - Starting trading engine...
+2025-07-23 04:18:41,266 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:18:55,429 - root - INFO - Starting trading engine...
+2025-07-23 04:18:55,488 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:19:09,266 - root - INFO - Starting trading engine...
+2025-07-23 04:19:09,321 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:19:20,467 - root - INFO - Starting trading engine...
+2025-07-23 04:19:20,530 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:19:35,566 - root - INFO - Starting trading engine...
+2025-07-23 04:19:35,628 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:20:02,820 - root - INFO - Starting trading engine...
+2025-07-23 04:20:02,891 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:20:18,053 - root - INFO - Starting trading engine...
+2025-07-23 04:20:18,109 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<TradingEngine.start() done, defined at /app/trading_bot/core/trading_engine.py:36> exception=AttributeError("'NoneType' object has no attribute 'encode'")>
+Traceback (most recent call last):
+  File "/app/trading_bot/core/trading_engine.py", line 42, in start
+    await self.api_client.start_private_stream(self._handle_websocket_message)
+  File "/app/trading_bot/core/api_client.py", line 91, in start_private_stream
+    if not self.get_listen_key():
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 52, in get_listen_key
+    response = self._make_request("POST", endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 39, in _make_request
+    headers['x-api-signature'] = self._generate_signature(timestamp, payload_str)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/trading_bot/core/api_client.py", line 22, in _generate_signature
+    self.api_secret.encode('utf-8'),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'encode'
+2025-07-23 04:20:41,855 - root - INFO - Starting trading engine...
+2025-07-23 04:20:44,938 - root - INFO - Stopping trading engine...
+2025-07-24 21:31:22,240 - root - INFO - Starting trading engine...
+2025-07-24 21:31:22,241 - engineio.client - INFO - Attempting WebSocket connection to wss://ws.coinswitch.co/pro/realtime-rates-socket/futures/exchange_2/?transport=websocket&EIO=4
+2025-07-24 21:31:23,268 - engineio.client - INFO - WebSocket connection accepted with {'sid': 'WDDKT5JJ-9vC-UL0AAQj', 'upgrades': [], 'pingInterval': 25000, 'pingTimeout': 20000, 'maxPayload': 1000000}
+2025-07-24 21:31:23,268 - socketio.client - INFO - Engine.IO connection established
+2025-07-24 21:31:23,269 - engineio.client - INFO - Sending packet MESSAGE data 0/exchange_2,
+2025-07-24 21:31:23,481 - engineio.client - INFO - Received packet MESSAGE data 0/exchange_2,{"sid":"aQaOByV1dM-FJ7UfAAQk"}
+2025-07-24 21:31:23,483 - socketio.client - INFO - Namespace /exchange_2 is connected
+2025-07-24 21:31:48,270 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:31:48,270 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:32:13,484 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:32:13,485 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:32:38,697 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:32:38,697 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:32:38,698 - engineio.client - WARNING - WebSocket connection was closed, aborting
+2025-07-24 21:32:38,699 - engineio.client - INFO - Waiting for write loop task to end
+2025-07-24 21:32:38,700 - engineio.client - INFO - Exiting write loop task
+2025-07-24 21:32:38,700 - socketio.client - INFO - Engine.IO connection dropped
+2025-07-24 21:32:38,701 - engineio.client - INFO - Exiting read loop task
+2025-07-24 21:32:38,701 - socketio.client - INFO - Connection failed, new attempt in 1.41 seconds
+2025-07-24 21:32:40,115 - engineio.client - INFO - Attempting WebSocket connection to wss://ws.coinswitch.co/pro/realtime-rates-socket/futures/exchange_2/?transport=websocket&EIO=4
+2025-07-24 21:32:41,095 - engineio.client - INFO - WebSocket connection accepted with {'sid': 'fdkVz9qRYApHKEnWAAUN', 'upgrades': [], 'pingInterval': 25000, 'pingTimeout': 20000, 'maxPayload': 1000000}
+2025-07-24 21:32:41,095 - socketio.client - INFO - Engine.IO connection established
+2025-07-24 21:32:41,095 - engineio.client - INFO - Sending packet MESSAGE data 0/exchange_2,
+2025-07-24 21:32:41,311 - engineio.client - INFO - Received packet MESSAGE data 0/exchange_2,{"sid":"bFMWYwHac_QQVyk9AAUO"}
+2025-07-24 21:32:41,311 - socketio.client - INFO - Namespace /exchange_2 is connected
+2025-07-24 21:32:41,312 - socketio.client - INFO - Reconnection successful
+2025-07-24 21:33:06,093 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:33:06,094 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:33:31,310 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:33:31,311 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:33:31,311 - engineio.client - WARNING - WebSocket connection was closed, aborting
+2025-07-24 21:33:31,312 - engineio.client - INFO - Waiting for write loop task to end
+2025-07-24 21:33:31,313 - engineio.client - INFO - Exiting write loop task
+2025-07-24 21:33:31,313 - socketio.client - INFO - Engine.IO connection dropped
+2025-07-24 21:33:31,314 - engineio.client - INFO - Exiting read loop task
+2025-07-24 21:33:31,314 - socketio.client - INFO - Connection failed, new attempt in 0.53 seconds
+2025-07-24 21:33:31,843 - engineio.client - INFO - Attempting WebSocket connection to wss://ws.coinswitch.co/pro/realtime-rates-socket/futures/exchange_2/?transport=websocket&EIO=4
+2025-07-24 21:33:32,772 - engineio.client - INFO - WebSocket connection accepted with {'sid': '6a_MmSJPpcJfJ4TYAAUV', 'upgrades': [], 'pingInterval': 25000, 'pingTimeout': 20000, 'maxPayload': 1000000}
+2025-07-24 21:33:32,773 - socketio.client - INFO - Engine.IO connection established
+2025-07-24 21:33:32,773 - engineio.client - INFO - Sending packet MESSAGE data 0/exchange_2,
+2025-07-24 21:33:32,985 - engineio.client - INFO - Received packet MESSAGE data 0/exchange_2,{"sid":"kbQ4CIW7DUVCk_EvAAUW"}
+2025-07-24 21:33:32,986 - socketio.client - INFO - Namespace /exchange_2 is connected
+2025-07-24 21:33:32,986 - socketio.client - INFO - Reconnection successful
+2025-07-24 21:33:57,773 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:33:57,774 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:34:22,988 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:34:22,989 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:34:48,205 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:34:48,205 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:35:13,420 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:35:13,420 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:35:38,636 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:35:38,636 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:36:03,852 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:36:03,852 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:36:29,067 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:36:29,067 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:36:54,279 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:36:54,280 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:37:19,492 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:37:19,492 - engineio.client - INFO - Sending packet PONG data
+2025-07-24 21:37:44,705 - engineio.client - INFO - Received packet PING data
+2025-07-24 21:37:44,705 - engineio.client - INFO - Sending packet PONG data
